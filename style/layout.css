@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+.slide {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 1920px 1080px;
+}
+
+.slide-1 {
+    background-image: url('../assets/slide1.png');
+}
+
+.slide-2 {
+    background-image: url('../assets/slide2.png');
+}
+
+.slide-3 {
+    background-image: url('../assets/slide3.png');
+}
+
+.slide-4 {
+    background-image: url('../assets/slide4.png');
+}
+
+.slide-5 {
+    background-image: url('../assets/slide5.png');
+}
+
+.slide-6 {
+    background-image: url('../assets/slide6.png');
+}
+
+.hero-logo {
+    position: absolute;
+    top: 512px;
+    left: 700px;
+}
+
+.about-container {
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    width: 1060px;
+}
+
+.manifest-text {
+    position: absolute;
+    top: 333px;
+    left: 159px;
+    width: 1602px;
+    text-align: center;
+}
+
+.menu-left {
+    position: absolute;
+    top: 95px;
+    left: 185px;
+    width: 700px;
+}
+
+.menu-right {
+    position: absolute;
+    top: 221px;
+    left: 916px;
+    width: 680px;
+}
+
+.menu-banner {
+    position: absolute;
+    top: 642px;
+    left: 1186px;
+    width: 630px;
+}
+
+.address-box {
+    position: absolute;
+    top: 848px;
+    left: 216px;
+}
+
+.author-box {
+    position: absolute;
+    top: 958px;
+    left: 1338px;
+}
